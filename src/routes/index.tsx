@@ -71,7 +71,7 @@ const team = [
   { name: "Arsene Kundwa", role: "Full-Stack Developer", img: null, initials: "AK" },
   { name: "Edmond Magaju", role: "Project Coordinator", img: edmondAsset.url, initials: "EM" },
   { name: "Ivan Murisa", role: "Network Security & Designer", img: ivanAsset.url, initials: "IM" },
-  { name: "Billy Ishimwe", role: "Full-Stack Developer & Consultant in Charge", img: billyAsset.url, initials: "BI" },
+  { name: "Ishimwe Billy Joshua ", role: "Full-Stack Developer & Consultant in Charge", img: billyAsset.url, initials: "BI" },
 ];
 
 function Home() {
@@ -188,7 +188,7 @@ function About() {
       <div className="mx-auto max-w-7xl grid md:grid-cols-2 gap-16 items-start">
         <SectionHeader tag="About us" title={<>Bridging the gap between <span className="text-gradient-emerald">technology and growth</span>.</>} />
         <div className="space-y-5 text-muted-foreground text-lg leading-relaxed">
-          <p>Kwanda Tech Solutions is a Kigali-based startup helping businesses, schools, universities, organizations, and entrepreneurs transform their operations through innovative digital solutions.</p>
+          <p>Kwanda Tech solution is a Kigali-based startup helping businesses, schools, universities, organizations, and entrepreneurs transform their operations through innovative digital solutions.</p>
           <p>As Rwanda becomes a leading digital economy, we partner with institutions to improve efficiency, productivity, and customer experience through modern technology — tailored to the Rwandan market.</p>
         </div>
       </div>
@@ -385,10 +385,10 @@ function Footer() {
       <div className="mx-auto max-w-7xl flex flex-col md:flex-row items-center justify-between gap-6">
         <div className="flex items-center gap-2">
           <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-gold-gradient font-bold text-accent-foreground">K</div>
-          <span className="font-display font-bold">Kwanda Tech Solutions</span>
+          <span className="font-display font-bold">Kwanda Tech solution</span>
         </div>
         <p className="text-sm text-muted-foreground text-center">Building Rwanda's Digital Future, One Solution at a Time.</p>
-        <p className="text-xs text-muted-foreground">© {new Date().getFullYear()} Kwanda Tech Solutions</p>
+        <p className="text-xs text-muted-foreground">© {new Date().getFullYear()} Kwanda Tech solution</p>
       </div>
     </footer>
   );
