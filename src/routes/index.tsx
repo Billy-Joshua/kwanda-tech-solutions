@@ -103,8 +103,8 @@ function Header() {
     <header className="fixed top-0 z-50 w-full glass">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
         <a href="#top" className="flex items-center gap-2">
-          <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-gold-gradient font-bold text-accent-foreground">E</div>
-          <span className="font-display text-lg font-bold tracking-tight">Elevate <span className="text-gradient-gold">Tech</span></span>
+          <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-gold-gradient font-bold text-accent-foreground">K</div>
+          <span className="font-display text-lg font-bold tracking-tight">Kwanda <span className="text-gradient-gold">Tech</span></span>
         </a>
         <nav className="hidden md:flex items-center gap-8 text-sm font-medium">
           {links.map(l => <a key={l.href} href={l.href} className="text-muted-foreground hover:text-foreground transition-colors">{l.label}</a>)}
@@ -154,7 +154,7 @@ function Hero() {
           <div className="relative animate-float">
             <div className="absolute -inset-8 bg-gold-gradient opacity-20 blur-3xl rounded-full" />
             <div className="relative glass rounded-3xl p-8 shadow-elegant">
-              <div className="font-mono text-xs text-muted-foreground mb-4">// elevate.tech / rwanda</div>
+              <div className="font-mono text-xs text-muted-foreground mb-4">// kwanda.tech / rwanda</div>
               <div className="space-y-3">
                 {["🌐 Web Platforms","🎓 EdTech Systems","🏢 Business Software","📱 Mobile Apps","🗄️ Databases"].map((s,i) => (
                   <div key={s} className="flex items-center gap-3 rounded-xl bg-card/50 border border-border/50 px-4 py-3 hover:border-gold/50 transition-colors" style={{animationDelay:`${i*0.1}s`}}>
@@ -188,7 +188,7 @@ function About() {
       <div className="mx-auto max-w-7xl grid md:grid-cols-2 gap-16 items-start">
         <SectionHeader tag="About us" title={<>Bridging the gap between <span className="text-gradient-emerald">technology and growth</span>.</>} />
         <div className="space-y-5 text-muted-foreground text-lg leading-relaxed">
-          <p>Elevate Tech Solutions is a Kigali-based startup helping businesses, schools, universities, organizations, and entrepreneurs transform their operations through innovative digital solutions.</p>
+          <p>Kwanda Tech Solutions is a Kigali-based startup helping businesses, schools, universities, organizations, and entrepreneurs transform their operations through innovative digital solutions.</p>
           <p>As Rwanda becomes a leading digital economy, we partner with institutions to improve efficiency, productivity, and customer experience through modern technology — tailored to the Rwandan market.</p>
         </div>
       </div>
@@ -308,7 +308,7 @@ function WhyUs() {
     <section className="py-28 px-6 relative overflow-hidden">
       <div className="absolute inset-0 bg-emerald-gradient opacity-[0.08]" />
       <div className="relative mx-auto max-w-7xl">
-        <SectionHeader tag="Why choose us" title={<>Reasons partners <span className="text-gradient-gold">trust Elevate</span>.</>} />
+        <SectionHeader tag="Why choose us" title={<>Reasons partners <span className="text-gradient-gold">trust Kwanda</span>.</>} />
         <div className="mt-14 grid sm:grid-cols-2 gap-4">
           {reasons.map(r => (
             <div key={r} className="flex items-start gap-4 glass rounded-xl p-5">
@@ -326,7 +326,7 @@ function Team() {
   return (
     <section id="team" className="py-28 px-6">
       <div className="mx-auto max-w-7xl">
-        <SectionHeader tag="Our team" title={<>The minds behind <span className="text-gradient-emerald">Elevate Tech</span>.</>} desc="A passionate team of co-founders building Rwanda's digital future." />
+        <SectionHeader tag="Our team" title={<>The minds behind <span className="text-gradient-emerald">Kwanda Tech</span>.</>} desc="A passionate team of co-founders building Rwanda's digital future." />
         <div className="mt-16 grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
           {team.map(m => (
             <div key={m.name} className="group">
@@ -384,11 +384,11 @@ function Footer() {
     <footer className="border-t border-border/50 py-12 px-6">
       <div className="mx-auto max-w-7xl flex flex-col md:flex-row items-center justify-between gap-6">
         <div className="flex items-center gap-2">
-          <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-gold-gradient font-bold text-accent-foreground">E</div>
-          <span className="font-display font-bold">Elevate Tech Solutions</span>
+          <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-gold-gradient font-bold text-accent-foreground">K</div>
+          <span className="font-display font-bold">Kwanda Tech Solutions</span>
         </div>
         <p className="text-sm text-muted-foreground text-center">Building Rwanda's Digital Future, One Solution at a Time.</p>
-        <p className="text-xs text-muted-foreground">© {new Date().getFullYear()} Elevate Tech</p>
+        <p className="text-xs text-muted-foreground">© {new Date().getFullYear()} Kwanda Tech Solutions</p>
       </div>
     </footer>
   );
